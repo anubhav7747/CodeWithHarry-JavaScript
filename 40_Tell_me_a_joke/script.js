@@ -8,4 +8,6 @@ let random = Math.floor(Math.random() * 55);
 
 const joke = ()=>{
   document.getElementById('joke').innerHTML = arr[random];
+  document.getElementById('search').style.background = "brown";
+  document.getElementById('search').style.borderColor = "brown";
 };
