@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+span {
+  font-size: 2em;
+  font-family: cursive;
+}
+
+.tell-me-a-joke {
+  margin-bottom: 1.5rem;
+}
+
+#joke {
+  margin-bottom: 1rem;
+}
+
+button {
+  width: fit-content;
+  padding: 5px;
+  background-color: orangered;
+  border: 1px solid orangered;
+  color: aliceblue;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+button:hover {
+  background-color: orange;
+  border: 1px solid orange;
+  color: #fefefe;
+  border-radius: 5px;
+}
